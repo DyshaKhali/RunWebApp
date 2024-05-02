@@ -1,0 +1,18 @@
+﻿using RunCroopWebApp.Data.Enum;
+using RunCroopWebApp.Models;
+using RunGroopWebApp.Data.Enum;
+using RunGroopWebApp.Models;
+
+namespace RunGroopWebApp.ViewModels
+{
+    public class CreateClubViewModel
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public Address Address { get; set; }
+        public string Image { get; set; }
+        public ClubCategory ClubCategory { get; set; }
+        public string AppUserId { get; set; }
+    }
+}
